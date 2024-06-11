@@ -1,0 +1,132 @@
+html {
+    background-image: url("../resources/main.png");
+    background-size: cover;
+}
+.header{
+    height:100px;
+    background-image: url("../resources/barslide.jpg");
+    border-radius: 8px;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #151520;
+    height: 10vh;
+
+}
+
+li {
+    float: left;
+    margin-left: 150px;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 20px 100px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+}
+
+li a:hover {
+    background-color: #017185;
+}
+
+.active {
+    background-color: #0491aa;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  width: 80%;
+  height: 100vh;
+  margin-left: 100px;
+  border-radius: 8px;
+  transform: translate(0%,5%);
+  margin-bottom: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.tail {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(13, 16, 32);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.author-info {
+    font-size: 14px;
+}
